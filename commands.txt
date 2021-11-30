@@ -1,0 +1,8 @@
+npm install aws-cdk
+cdk init app --language javascript
+npm install @aws-cdk/aws-gateway -s
+npm install @aws-cdk/aws-lambda -s
+npm install @aws-cdk/aws-sqs -s
+npm install @aws-cdk/aws-apigateway -s
+cdk bootstrap (bootstraps to aws://377636890480/ap-south-1)
+cdk deploy
